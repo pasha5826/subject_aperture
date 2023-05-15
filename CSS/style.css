@@ -347,6 +347,9 @@ footer{
 .footer_logo{
     max-width: 440px;
 }
+.images_logo {
+    margin-bottom: 20px;
+}
  footer p{
      font-style: normal;
      font-weight: 400;
@@ -354,7 +357,7 @@ footer{
      line-height: 20px;
      font-family: 'Poppins', sans-serif;
      color: #C0C0C0;
-     margin-top: 20px;
+
  }
  footer h3{
      font-style: normal;
@@ -388,10 +391,76 @@ footer ul li a{
 }
 
 .border{
+    margin: auto;
+    max-width: 1200px;
+    border-top: 1px solid#FFFFFF;
     border-bottom: 1px solid#FFFFFF;
     width: 100%;
     padding-bottom: 36px;
+    padding-top: 36px;
+    margin-top:56px ;
+    display: flex;
+    justify-content: space-between;
 }
+.border a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.border p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.border button{
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 458px;
+    position: relative;
+}
+.border button:before{
+    content: "";
+    background: #000000;
+    border-radius: 11px;
+    width: 63px;
+    height: 30px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+.footer{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+.footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.footer a:nth-child(2){
+    margin-left: 20px;
+}
+.footer a:nth-child(3){
+    margin-left: 20px;
+}
+
+
 
 .conteiner_what{
     padding-bottom: 100px;
