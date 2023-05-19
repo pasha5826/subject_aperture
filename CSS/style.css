@@ -32,6 +32,19 @@
     justify-content: space-between;
 }
 
+.test{
+    width: 300px;
+    border-radius: 10px;
+    height: 500px;
+    margin: 20px;
+    border: solid 1px red;
+    overflow: hidden;
+    display: flex;
+}
+
+
+
+
 header{
     background: #181818;
     padding: 24px 0 24px 0;
@@ -83,6 +96,7 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 .box{
     max-width: 580px;
@@ -120,6 +134,50 @@ header nav ul li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
+
+.fixed_information li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 16px;
+
+}
+
+.fixed_information {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.fixed_information li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Clok.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.fixed_information li:nth-child(2):before{
+    width: 16px;
+    background-image: url("../images/Hurricane.svg");
+}
+.fixed_information li:nth-child(3):before{
+    width: 32px;
+    background-image: url("../images/iso.svg");
+}
+.fixed_information li:nth-child(4):before {
+    width: 10px;
+    background-image: url("../images/dot.svg");
+}
+
+
+
+
 .banner-sunset{
     background-image: url('../images/sunset.jpg');
     min-height: 600px;
@@ -128,6 +186,7 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 
 .box-sunset{
@@ -161,6 +220,7 @@ header nav ul li:last-of-type a{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
 }
 .box-monstera{
     max-width: 275px;
@@ -285,7 +345,12 @@ header nav ul li:last-of-type a{
     height:100%;
     background-size: cover;
     background-repeat: repeat;
+
 }
+
+
+
+
 
 .content_need{
     padding-bottom: 110px;
@@ -420,14 +485,14 @@ footer ul li a{
     font-family: 'Poppins', sans-serif;
     color: #C0C0C0;
 }
-.border button{
+.border .Subscribe{
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     width: 458px;
     position: relative;
 }
-.border button:before{
+.border .Subscribe:after{
     content: "";
     background: #000000;
     border-radius: 11px;
@@ -459,9 +524,6 @@ footer ul li a{
 .footer a:nth-child(3){
     margin-left: 20px;
 }
-
-
-
 .conteiner_what{
     padding-bottom: 100px;
     padding-top: 100px;
@@ -596,6 +658,7 @@ content: "";
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
 }
 .text-star{
     max-width: 255px;
@@ -620,4 +683,8 @@ content: "";
     color: #C0C0C0;
 
 }
+
+
+
+
 
